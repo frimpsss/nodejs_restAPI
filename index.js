@@ -14,11 +14,8 @@ app.get('/', (req, res) => {
 })
 
 
-
-
-
 //setting port  
-app.listen(8080)
+app.listen(process.env.PORT || 8080)
 
 
 
